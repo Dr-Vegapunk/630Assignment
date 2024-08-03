@@ -32,3 +32,12 @@ console.log(filtArrr);
 //console.log(filteredArr)
 
 //----------------
+// Given an array of numbers, return a new array where each number is squared
+const numbers = [1, 2, 3, 4, 5];
+// Expected output: [1, 4, 9, 16, 25]
+const newNumbers=numbers.map((item,id)=>{
+    return item**2;
+});
+console.log(newNumbers);
+//
+
