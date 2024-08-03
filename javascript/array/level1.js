@@ -89,6 +89,32 @@ colors.forEach(item=>{
 })
 console.log(colorsSuffix);
 
+// Given an array of numbers, return a new array containing only the even numbers.
+const example = [1, 2, 3, 4, 5, 6];
+// Expected output: [2, 4, 6]
+const even=example.filter(item=>{
+    return item %2===0;
+})
+console.log(even);
+
+// Given an array of strings, return a new array containing only the strings with more than 3 characters.
+const word = ['hi', 'hello', 'hey', 'world'];
+// Expected output: ['hello', 'world']
+const newWord=word.filter(item=>{
+    return item.length > 3;
+})
+console.log(newWord);
+
+// Given an array of objects, return a new array containing only the objects where a specific property has a value greater than a given threshold.
+const products = [{name: 'A', price: 50}, {name: 'B', price: 100}, {name: 'C', price: 150}];
+const threshold = 100;
+// Expected output (price > 100): [{name: 'C', price: 150}]
+const newProducts=products.filter(item=>{
+    return item.price > threshold;
+})
+console.log(newProducts);
+
+
    
 
 
