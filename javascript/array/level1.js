@@ -39,5 +39,26 @@ const newNumbers=numbers.map((item,id)=>{
     return item**2;
 });
 console.log(newNumbers);
-//
+
+
+
+//Given an array of strings, return a new array with all strings converted to uppercase.
+const words = ['hello', 'world', 'javascript'];
+// Expected output: ['HELLO', 'WORLD', 'JAVASCRIPT']
+const newWords=words.map((item)=>{
+    return item.toUpperCase();
+});
+
+console.log(newWords);
+
+//Given an array of objects, return a new array containing only the values of a specific property.
+
+const people = [{name: 'Alice', age: 25}, {name: 'Bob', age: 30}, {name: 'Charlie', age: 35}];
+// Expected output (extracting 'name'): ['Alice', 'Bob', 'Charlie']
+const newPeople=people.map((item)=>{
+    return item.name;
+});
+console.log(newPeople);
+
+
 
