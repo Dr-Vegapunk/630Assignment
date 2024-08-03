@@ -61,4 +61,37 @@ const newPeople=people.map((item)=>{
 console.log(newPeople);
 
 
+//Given an array of strings, use forEach to log each string to the console.
+
+const fruits = ['apple', 'banana', 'cherry'];
+// Expected output: 'apple', 'banana', 'cherry' (each on a new line)
+
+fruits.forEach((item)=>{
+    console.log (item);
+});
+
+//Given an array of numbers, use forEach to calculate and log the total sum of the numbers.
+const number = [10, 20, 30, 40];
+// Expected output: 100
+let sum=0;
+number.forEach(item=>{
+    sum +=item;
+});
+console.log(sum);
+
+//Given an array of strings, use forEach to append a specific suffix to each string and store the results in a new array.
+const colors = ['red', 'green', 'blue'];
+const suffix = ' color';
+const colorsSuffix=[];
+// Expected output: ['red color', 'green color', 'blue color']
+colors.forEach(item=>{
+    colorsSuffix.push(item+suffix);
+})
+console.log(colorsSuffix);
+
+   
+
+
+
+
 
