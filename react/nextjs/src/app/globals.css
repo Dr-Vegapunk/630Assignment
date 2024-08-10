@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .login{
+  background-color: aqua;
+  height: max-content;
+  width: max-content;
+  margin: 30px;
+  padding: 10px;
+  align-items: center;
+  
+}
+.button{
+  background-color: blue;
+  height: max-content;
+  width: max-content;
+  border-radius: 20%;
+  margin-top: 10px;
+  padding-top: 10px;
+} */
