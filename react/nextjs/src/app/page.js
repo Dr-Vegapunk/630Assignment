@@ -14,7 +14,9 @@ const Login=()=>{
     
   }
   const handleDecrement = ()=>{
-    if(num>0){
+    if(num>0
+      
+    ){
       setNum(num - 1)
 
     }else{
