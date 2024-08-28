@@ -12,8 +12,8 @@ export const boxSlice = createSlice({
     backgroundColor:'orange',
     marginLeft: 30,
     marginRight: 30,
-    marginUp: 30,
-    marginDown: 30,
+    marginTop: 30,
+    marginBottom: 30,
   },
   reducers: {
     changeToCircle: (state, action) => {
@@ -41,10 +41,10 @@ export const boxSlice = createSlice({
       state.marginLeft = state.marginLeft-20;
     },
     moveUp:(state,action)=>{
-      state.marginDown +=20;
+      state.marginTop +=20;
     },
     moveDown:(state,action)=>{
-      state.marginUp +=20;
+      state.marginTop -=20;
     },
 
     // incrementByAmount: (state, action) => {
